@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: brown; */
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  width: 100vw;
+  height: 80px;
+  /* background-color: cadetblue; */
+  padding: 0 30px;
+  position: fixed;
+  top: 0px;
+  background-color: white;
+}
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+nav ul li {
+  /* word-spacing: 40px; */
+  margin-left: 20px;
+}
+nav img {
+  height: 20px;
+  width: 100px;
+  object-fit: contain;
+  object-position: center;
+}
+nav button {
+  height: 50px;
+  width: 120px;
+  background-color: #471cff;
+  margin-right: 10px;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  color: white;
+}
+nav button:first-child {
+  /* color: red; */
+  color: black;
+  background-color: white;
+}
+.pag1 {
+  width: 100vw;
+  height: 80%;
+  /* padding-top: 80px; */
+  /* overflow: hidden; */
+  margin-top: 80px;
+}
+.pag1 .container {
+  width: 90%;
+  height: 95%;
+  background-color: #e0e5fe;
+  border-radius: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+.pag1 .container .left {
+  /* background-color: red; */
+  height: 100%;
+  width: 50%;
+  padding: 100px;
+}
+.pag1 .container .left h1 {
+  font-size: 60px;
+}
+.pag1 .container .left p {
+  font-size: 22px;
+  margin-top: 20px;
+}
+.pag1 .container .left button {
+  height: 40px;
+  font-size: 20px;
+  background-color: white;
+  color: #471cff;
+  margin-right: 10px;
+  border: 2px solid #471cff;
+  border-radius: 20px;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+.pag1 .container .left button:first-child {
+  background-color: #471cff;
+  color: white;
+}
+.pag1 .container .right {
+  /* background-color: greenyellow; */
+  height: 100%;
+  width: 50%;
+  padding: 60px;
+}
+.pag1 .container .right img {
+  object-fit: contain;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.rating {
+  width: 100vw;
+  height: 150px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.achive {
+  width: 200px;
+  height: 80%;
+  /* background-color: black; */
+  text-align: center;
+  margin: 0 20px;
+}
+.rating p {
+  font-size: 17px;
+  margin-top: 10px;
+}
+.pag2 {
+  height: 100vh;
+  width: 100vw;
+  /* background-color: red; */
+  padding-top: 30px;
+}
+.pag2 > h2 {
+  text-align: center;
+  font-size: 50px;
+  width: 60%;
+  /* border: 2px solid black; */
+  margin: auto;
+}
+.pag2 > p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.blue {
+  color: #471cff;
+}
+.cardcontainer {
+  margin-top: 30px;
+  width: 100%;
+  height: 80%;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.card {
+  height: 90%;
+  width: 350px;
+  background-color: #f3f8fd;
+  border-radius: 10px;
+  text-align: center;
+  /* padding-top: 20px; */
+}
+.card h3 {
+  /* margin-top: 30px; */
+  margin: 20px;
+  font-size: 30px;
+  /* color: red; */
+}
+.card img {
+  width: 100%;
+  object-fit: contain;
+  object-position: center;
+}
+.card p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin: 20px;
+}
+.pag3 {
+  width: 100vw;
+
+  height: 120vh;
+  /* background-color: red; */
+  margin-top: 60px;
+}
+.pag3 .container {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  height: 80%;
+  background-color: #dee5ff;
+  border-radius: 0px;
+  padding-top: 60px;
+}
+.pag3 .container > h3 {
+  font-size: 30px;
+  /* margin-top: 40px; */
+}
+.pag3 .container > h2 {
+  font-size: 45px;
+  margin: 20px 0px;
+}
+.pag3 .buttoncontainer {
+  width: 250px;
+  height: 48px;
+  border: 2px solid #471cff;
+  margin: auto;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+.pag3 .buttoncontainer button {
+  height: 95%;
+  width: 48%;
+  border-radius: 5px;
+  border: none;
+  background: transparent;
+  font-size: 17px;
+}
+.pag3 .buttoncontainer button:first-child {
+  background-color: #471cff;
+  color: white;
+}
+.paracontainer {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  margin: 0px auto;
+
+  align-items: center;
+  margin-top: 30px;
+}
+.paracontainer img {
+  height: 80px;
+  width: 80px;
+}
+.paracontainer p {
+  font-size: 18px;
+  margin-left: 20px;
+}
+.firstdiv{
+  width: 65%;
+  height: 350px;
+  /* background-color: crimson; */
+  margin: auto;
+  margin-top: 40px;
+  border: 2px solid #471cff;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  overflow: hidden;
+  padding: 25px;
+}
+.firstdiv .left{
+height: 100%;
+width: 50%;
+/* background-color: darkgoldenrod; */
+}
+.firstdiv .left .heading{
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 40px;
+
+}
+.firstdiv .left .heading img{
+  height: 60px;
+  width: 60px;
+
+}
+.firstdiv .left .heading p{
+  font-size: 25px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+.firstdiv .left>p{
+  align-items: left;
+  /* background-color: green; */
+  text-align: left;
+  /* color: red; */
+  margin-top: 20px;
+  font-size: 20px;
+  margin-left: 30px;
+  
+
+}
+.firstdiv .right{
+  /* margin-top: 30px; */
+  padding-top: 30px;
+  height: 100%;
+  /* background-color: darkseagreen; */
+  width: 50%;
+  text-align: left;
+}
+.firstdiv .right ul{
+  list-style: none;
+  font-size: 20px;
+  /* text-justify: c; */
+}
+.firstdiv .right ul img{
+  height: 20px;
+  width: 20px;
+}
+.firstdiv .right ul li{
+margin-bottom: 10px;
+}
+footer{
+  width: 100%;
+
+  height: 300px;
+  /* background-color: black; */
+  display: flex;
+}
+footer .left{
+width: 40%;
+height: 100%;
+/* background-color: coral; */
+text-align: center;
+}
+footer .left img{
+  height: 40px;
+  width: 250px;
+  margin-top: 60px;
+
+}
+footer .left ul{
+  display: flex;
+  list-style: none;
+  align-items: center;
+  width: 300px;
+  /* margin: auto; */
+  justify-content: space-evenly;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 150px;
+  color: #471cff;
+}
+footer .right{
+width: 60%;
+height: 100%;
+/* background-color: darkorchid; */
+display: flex;
+justify-content: space-evenly;
+padding-top: 20px;
+}
+footer .right ul{
+  list-style: none;
+  font-size: 16px;
+  color: #494949;
+}
+footer .right ul li{
+  margin-bottom: 10px;
+}
+footer .right ul li:first-child{
+color: black;
+font-size: 18px;
+font-weight: 600;
+}
+footer>p{
+  text-align: center;
+}
+.bottom{
+  width: 100%;
+  height: 20px;
+  text-align: center;
+}
